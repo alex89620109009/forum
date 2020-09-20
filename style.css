@@ -1,0 +1,277 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+input
+{
+    outline: none;
+}
+
+button
+{
+    outline: none;
+}
+
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+}
+header img{
+    width: 100%;
+    /* background-image: url(img/шапка.png);
+    background-size: 100%;
+    width: 100%;
+    height: 330px;
+    background-repeat: no-repeat; */
+}
+
+/* .nav-left{
+     background: #CEDFFF;
+    font-size: 16px;
+    max-height: 500px;
+} */
+
+.nav-left li{
+    padding-top: 10px;
+    align-items: center;
+letter-spacing: 0.05em;
+text-decoration-line:    
+} 
+
+.nav-left a{
+    color: black;
+    font-weight: bold;
+} 
+
+.right-content-content img{
+    width: 45px;
+    height: 45px;
+
+}
+.right-content-content_text #bb{
+    border-bottom:2px solid #000;
+    
+}
+.right-content{
+padding-left: 25px;
+}
+.right-content-content{
+    
+    font-size: 16px;
+}
+
+.right-content-content_text #tb,.right-content-content_text li{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.right-content-content_text #tb{
+    padding-left: 50px;
+}
+.right-content-content_text li{
+    padding-top: 5px;
+}
+.right-content-content_text ul{
+    padding: 0; /* Убираем поля */
+    margin-left: 0;
+}
+
+.right-content-content-img{
+    height: 50px;
+}
+
+.video{
+    text-align: center;
+}
+
+.rabot{
+    text-align: center; 
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top:2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.rabot-video{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.reg{
+    padding-left: 36px;
+}
+.reg h4{
+    text-align: center;
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+padding-top: 30px;
+}
+
+.reg img{
+    height: 25px;
+    width: 25px;
+}
+
+.nav-burger{
+    display: none;
+}
+
+.navbar{
+    display: none;
+}
+
+.rabot-slider{
+    display: none;
+}
+
+/* @media screen and (max-width: 1500px){
+    header{
+        height: 260px;
+    }
+    }
+
+    @media screen and (max-width: 1320px){
+        header{
+            height: 220px;
+        }
+        }
+
+        @media screen and (max-width: 1230px){
+            header{
+                height: 210px;
+            }
+            .nav-left a{
+                font-size: 13px;
+            }
+            }
+
+            @media screen and (max-width: 1050px){
+                header{
+                    height: 180px;
+                }
+                }
+
+                @media screen and (max-width: 950px){
+                    header{
+                        height: 160px;
+                    }
+                    }
+
+                    @media screen and (max-width: 857px){
+                        header{
+                            height: 860px;
+                        }
+                        } */
+
+
+ @media screen and (max-width: 1000px){
+  .nav-left a{
+     font-size: 12px;
+  }
+ }
+
+ @media screen and (max-width: 1000px){
+     .navbar{
+         display: block;
+         position: sticky;
+         top:2px;
+     }
+
+     .nav-left{
+         display: none;
+     }
+
+     .video iframe{
+        height: 200px;
+     }
+
+     .rabot-video iframe{
+         height: 80px;
+     }
+
+     .rabot-video{
+         display: none;
+     }
+
+     .rabot-slider{
+         display: block;
+     }
+
+     .slick-track{
+         display: flex;
+
+     }
+
+     .slick-list{
+         overflow: hidden;
+     }
+ }
+
+ /* 
+ @media screen and (max-width: 770px){
+   .nav-burger{
+       display: block;
+       position: fixed;
+       width: 30px;
+       height: 20px;
+       z-index: 3;
+  
+   }
+   .nav-burger::before, .nav-burger::after{
+       content: "";
+       background: #000;
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       left: 0;
+   }
+
+   .nav-burger::before{
+       top:0;
+   }
+
+   .nav-burger::after{
+       bottom: 0;
+   }
+
+   .nav-burger span{
+    content: "";
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top:9px;
+   }
+
+   .list-group{
+       position: fixed;
+       left: 0;
+       top: 0;
+       width: 50%;
+       height: 100%;
+       background: #CEDFFF;
+      
+   }
+.list-group-item{
+    background: #CEDFFF;
+    border:none;
+} 
+   
+   }*/
