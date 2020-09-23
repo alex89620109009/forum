@@ -152,6 +152,11 @@ padding-top: 30px;
     padding-bottom: 10px;
 }
 
+.info h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
 
 .question_headliner h3{
     font-size: 23px;
