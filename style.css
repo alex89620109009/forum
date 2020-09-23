@@ -213,7 +213,10 @@ padding-top: 30px;
  }
 
  @media screen and (max-width: 1000px){
-     .navbar{
+    .info, .question{
+        margin: 30px;
+    }
+    .navbar{
          display: block;
         
      }
