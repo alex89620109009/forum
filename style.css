@@ -50,7 +50,7 @@ header img{
     padding-top: 10px;
     align-items: center;
 letter-spacing: 0.05em;
-text-decoration-line:    
+  
 }
 
 .nav-left a{
@@ -166,6 +166,12 @@ padding-top: 30px;
     text-align: center;
 }
 
+.metrika{
+    position: fixed;
+}
+
+
+
 /* @media screen and (max-width: 1500px){
     header{
         height: 260px;
@@ -206,13 +212,11 @@ padding-top: 30px;
                         } */
 
 
- @media screen and (max-width: 1000px){
-  .nav-left a{
-     font-size: 12px;
-  }
- }
 
  @media screen and (max-width: 1000px){
+    .nav-left a{
+        font-size: 12px;
+     }
     .info, .question{
         margin: 30px;
     }
