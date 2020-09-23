@@ -170,6 +170,12 @@ padding-top: 30px;
     position: fixed;
 }
 
+.informer{
+    position: fixed;
+    z-index: 100;
+     left:5%;
+      top:95%;
+}
 
 
 /* @media screen and (max-width: 1500px){
