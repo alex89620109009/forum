@@ -65,6 +65,8 @@ letter-spacing: 0.05em;
 }
 .right-content-content_text #bb{
     border-bottom:2px solid #000;
+    padding-bottom: 10px;
+    
     
 }
 .right-content{
@@ -181,7 +183,64 @@ padding-top: 30px;
      left:5%;
       top:95%;
 }
+.kollege_logo_block.rectangle{
+    width: 175px;
+}
 
+.kollege_logo_block.quadro{
+    width: 100px;
+}
+.kollege_logo_block{
+    
+    text-align: center;
+    margin-right: 50px;
+}
+.kollege_logo_block.quadro img{
+width: 100px;
+}
+
+.kollege_logo_block.rectangle img{
+    width: 175px;
+}
+.kollege_logo_block img{
+    height: 75px;
+
+    
+}
+
+.kollege_logo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.kollege_logo_block p{
+padding-top: 10px;
+font-size: 13px;
+}
+
+.up_button a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding:0 20px 0 20px;
+    border: none;
+    background: #4FDBE4;
+    
+}
+
+.up_button{
+    position: fixed;
+    bottom: 10px;
+    left:85%;
+    opacity: 1;
+}
+
+.up_button a:hover{
+    background: #0ac9d6;
+}
 
 /* @media screen and (max-width: 1500px){
     header{
@@ -224,7 +283,7 @@ padding-top: 30px;
 
 
 
- @media screen and (max-width: 1000px){
+ @media screen and (max-width: 996px){
     .nav-left a{
         font-size: 12px;
      }
@@ -274,6 +333,7 @@ padding-top: 30px;
      .slick-list{
          overflow: hidden;
      }
+     
  }
 
  /* 
