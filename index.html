@@ -18,6 +18,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/timer.js"></script>
 
 
   <!-- Yandex.Metrika informer -->
@@ -72,15 +73,7 @@ style="width:88px;  height:31px; border:0;" alt="Яндекс.Метрика" ti
     <section class="row p-4 g-3">
         
          <div class="col-0 col-md-3 p-3 nav-left">
-             <!-- <ul>
-
-                <li><a href="#"> 80 ЛЕТ ПРОФТЕХ</a></li>
-                <li><a href="#">ОТКРЫТИЕ ФОРУМА</a></li>
-                <li><a href="#">РАБОТОДАТЕЛИ ДЛЯ БУДУЩИХ СТУДЕНТОВ</a></li>
-                <li><a href="#">МАСТЕР-КЛАССЫ ПО СПЕЦИАЛЬНОСТЯМ И ПРОФЕССИЯМ</a></li>
-                <li><a href="#">ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАНИЕ ДЛЯ ШКОЛЬНИКОВ</a></li>
-                <li><a href="#">ВИКТОРИНА</a></li>
-            </ul>  -->
+            
 
             <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#open">ОТКРЫТИЕ ФОРУМА</a>
@@ -103,7 +96,7 @@ style="width:88px;  height:31px; border:0;" alt="Яндекс.Метрика" ti
             <p id="bb"> <img src="img/znak.png" alt="">Сайт предназначен для учащихся общеобразовательных школ, думающих о своей
                 будущей профессиональной деятельности. Мы рекомендуем рассмотреть материалы,
                 представленные здесь</p>
-                <!-- <hr width="100%" size="4px" color="black"> -->
+              
                 <p id="tb">Участниками VII Образовательного форум «Найди свой путь к успеху!» на территории 7
                     зоны являются:</p>
                       <div class="kollege_logo">
@@ -132,9 +125,16 @@ style="width:88px;  height:31px; border:0;" alt="Яндекс.Метрика" ti
                 </div>
             </div>
             <div class="video">
-                <div class="col-sm-10 col-lg-6 offset-sm-1 offset-lg-2">
+                <div class="col-sm-10 col-lg-6 offset-sm-1 offset-lg-2 ">
+                  <div class="conteiner_open">
               <h3>ОТКРЫТИЕ ФОРУМА</h3>
               <iframe width="100%" height="350" src="https://www.youtube.com/embed/INVbXpNsuPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+              <div class="conteiner_time">
+                <h1 id="time_h1">До открытия форума осталось:</h1>
+                <hr>
+                <p id="time"></p>
+              </div>
             </div>
         </div>
         </div>
