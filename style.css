@@ -128,6 +128,9 @@ padding-top: 30px;
     width: 25px;
 }
 
+.conteiner_open iframe{
+    display: none;
+}
 
 
 .navbar{
@@ -179,7 +182,7 @@ padding-top: 30px;
     position: fixed;
     z-index: 100;
      left:5%;
-      top:95%;
+      top:83%;
 }
 .kollege_logo_block.rectangle{
     width: 175px;
@@ -214,7 +217,9 @@ width: 100px;
     font-size: 20px;
 }
 
-
+.reg_blocks_block h2{
+    text-align: center;
+}
 
 
 .kollege_logo{
@@ -251,11 +256,48 @@ font-size: 13px;
     background: #0ac9d6;
 }
 
+.reg_blocks{
+    margin-top: 30px;
+}
+
+.reg_blocks_block h2{
+    height: 140px;
+    padding-top: 45px;
+    font-size: 25px;
+    
+}
+
+.reg_blocks_block ul{
+    height: 150px;
+    list-style: disc;
+   
+}
+
+.reg_blocks_block li{
+    margin-top: 10px;
+   
+
+    
+}
 
 
 
+.burger_div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  .rabot{
+      display: none;
+  }
 
  @media screen and (max-width: 996px){
+    .reg_blocks_block li{
+        font-size: 12px;
+  
+    }
     .nav-left a{
         font-size: 12px;
      }
@@ -267,6 +309,13 @@ font-size: 13px;
         
      }
 
+     .reg_blocks_wrapper iframe{
+         height: 315px;
+     }
+
+     .reg_blocks_block h2 {
+         font-size: 18px;
+     }
 
     
 
@@ -301,5 +350,30 @@ font-size: 13px;
      
  }
 
+ @media screen and (max-width: 700px){
+    .reg_blocks_wrapper iframe{
+        height: 215px;
+    }
+
+    .reg_blocks_block h2 {
+        font-size: 16px;
+    }
+
+ }
+ 
+
+ @media screen and (max-width: 500px){
+    .reg_blocks_wrapper iframe{
+        height: 150px;
+    }
+
+    .reg_blocks_block h2{
+        font-size: 14px;
+        height: 135px;
+        padding-top: 25px;
+        
+    }
+
+ }
  
  
