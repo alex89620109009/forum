@@ -38,6 +38,9 @@ header img{
    
 }
 
+.kollege_logo_block a:hover{
+    cursor: pointer;
+}
 /* .nav-left{
      background: #CEDFFF;
     font-size: 16px;
@@ -121,6 +124,7 @@ padding-left: 25px;
 font-weight: bold;
 font-size: 20px;
 padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .reg img{
@@ -128,7 +132,7 @@ padding-top: 30px;
     width: 25px;
 }
 
-.conteiner_open iframe{
+#open_video{
     display: none;
 }
 
@@ -289,9 +293,7 @@ font-size: 13px;
     margin: 6px 0;
   }
 
-  .rabot{
-      display: none;
-  }
+ 
 
  @media screen and (max-width: 996px){
     .reg_blocks_block li{
@@ -369,7 +371,7 @@ font-size: 13px;
 
     .reg_blocks_block h2{
         font-size: 14px;
-        height: 135px;
+        height: 140px;
         padding-top: 25px;
         
     }
