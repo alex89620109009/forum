@@ -9,7 +9,7 @@ var coutDownFunction = setInterval(function(){
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     if(hours <= 0 && days <= 0 && minutes <= 0 && seconds <= 0){
-        document.getElementById('open_video').style.display = "block";
+        // document.getElementById('open_video').style.display = "block";
         document.getElementById("time").innerHTML = "Мы открылись!"
         document.getElementById("time_h1").innerHTML = " "
     }
